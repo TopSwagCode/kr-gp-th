@@ -1,0 +1,37 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #ffe6f0, #fff5fa);
+    overflow: hidden;
+}
+.hero {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    top: 30%;
+    transform: translateY(-30%);
+    padding: 0 20px;
+}
+.hero h1 {
+    font-size: 3em;
+    color: #d63384;
+    margin-bottom: 0.3em;
+}
+.hero h2 {
+    font-size: 2em;
+    color: #6f42c1;
+    margin-bottom: 1em;
+}
+.message {
+    font-size: 1.2em;
+    color: #495057;
+}
+canvas#hearts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
